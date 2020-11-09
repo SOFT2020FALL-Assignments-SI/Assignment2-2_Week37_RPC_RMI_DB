@@ -1803,3 +1803,33 @@ java.sql.SQLClientInfoException: Client info name 'ApplicationName' not supporte
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-09-12 10:22:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TRANSACTION" not found; SQL statement:
+INSERT INTO Transaction (id, accnum, type, amount) VALUES (1,0,'null',null); [42102-200]
+2020-09-12 10:24:34 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TRANSACTION" not found; SQL statement:
+INSERT INTO Transaction (id, accnum, type, amount) VALUES (1,0,'null',null); [42102-200]
+2020-09-12 10:26:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TRANSACTIONS" not found; SQL statement:
+INSERT INTO Transactions (accnum, type, amount) VALUES (0,'null',null); [42102-200]
+2020-09-12 10:32:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TRANSACTIONS" not found; SQL statement:
+INSERT INTO Transactions (accnum, type, amount) VALUES (0,'null',null); [42102-200]
+2020-09-12 10:38:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TRANSACTIONS" not found; SQL statement:
+INSERT INTO Transactions (accnum, type, amount) VALUES (0,'null',null); [42102-200]
+2020-09-12 10:41:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TRANSACTIONS" not found; SQL statement:
+select * from Transactions; [42102-200]
+2020-09-12 10:44:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TRANSACTIONS" not found; SQL statement:
+select * from Transactions; [42102-200]
+2020-09-12 10:50:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TRANSACTIONS" not found; SQL statement:
+select * from TRANSACTIONS; [42102-200]
+2020-09-12 11:19:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMERTRANSACTIONS" not found; SQL statement:
+select * from Customertransactions; [42102-200]
+2020-09-12 11:21:23 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMERTRANSACTIONS" not found; SQL statement:
+select * from Customertransactions; [42102-200]
